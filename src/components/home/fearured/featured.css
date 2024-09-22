@@ -1,0 +1,22 @@
+.featured .box{
+    box-shadow:  0 0 20px 0 rgb(112 121 138 /18%);
+     border-radius: 6px;
+     text-align: center;
+     padding: 30px;
+     cursor: pointer;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف */
+
+     transition: transform 0.4s ease, box-shadow 0.4s ease; /* تأثيرات انتقال سلسة */
+
+}
+
+.featured .box:hover{
+    transform: scale(1.2) rotate(3deg); /* تكبير وتدوير بسيط */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featured img{
+    width: 65px;
+    height: 65px;
+    margin: auto;
+}
